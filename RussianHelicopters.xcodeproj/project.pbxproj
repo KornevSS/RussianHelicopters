@@ -9,10 +9,8 @@
 /* Begin PBXBuildFile section */
 		7C5F11C426530017005543BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5F11C326530017005543BB /* AppDelegate.swift */; };
 		7C5F11C626530017005543BB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5F11C526530017005543BB /* SceneDelegate.swift */; };
-		7C5F11C826530017005543BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5F11C726530017005543BB /* ViewController.swift */; };
 		7C5F11CB26530017005543BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C5F11C926530017005543BB /* Main.storyboard */; };
 		7C5F11CD26530019005543BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C5F11CC26530019005543BB /* Assets.xcassets */; };
-		7C5F11D026530019005543BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C5F11CE26530019005543BB /* LaunchScreen.storyboard */; };
 		7CCA309B26665CC4006972CA /* vid.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 7CCA309A26665CC4006972CA /* vid.mp4 */; };
 		7CCA309F26665D1C006972CA /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCA309E26665D1C006972CA /* Video.swift */; };
 		7CCA30A3266660EE006972CA /* VideoLooperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCA30A2266660EE006972CA /* VideoLooperView.swift */; };
@@ -24,10 +22,8 @@
 		7C5F11C026530017005543BB /* RussianHelicopters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RussianHelicopters.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C5F11C326530017005543BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7C5F11C526530017005543BB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7C5F11C726530017005543BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7C5F11CA26530017005543BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7C5F11CC26530019005543BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7C5F11CF26530019005543BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7C5F11D126530019005543BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7CCA309A26665CC4006972CA /* vid.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = vid.mp4; path = ../../../vid.mp4; sourceTree = "<group>"; };
 		7CCA309E26665D1C006972CA /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
@@ -72,10 +68,8 @@
 				7CCA309D26665CF9006972CA /* Models */,
 				7C5F11C326530017005543BB /* AppDelegate.swift */,
 				7C5F11C526530017005543BB /* SceneDelegate.swift */,
-				7C5F11C726530017005543BB /* ViewController.swift */,
 				7C5F11C926530017005543BB /* Main.storyboard */,
 				7C5F11CC26530019005543BB /* Assets.xcassets */,
-				7C5F11CE26530019005543BB /* LaunchScreen.storyboard */,
 				7C5F11D126530019005543BB /* Info.plist */,
 				7CCA309826665C14006972CA /* LocalVideo */,
 			);
@@ -155,7 +149,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C5F11D026530019005543BB /* LaunchScreen.storyboard in Resources */,
 				7CCA309B26665CC4006972CA /* vid.mp4 in Resources */,
 				7C5F11CD26530019005543BB /* Assets.xcassets in Resources */,
 				7C5F11CB26530017005543BB /* Main.storyboard in Resources */,
@@ -170,7 +163,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7CCA30AB266661BA006972CA /* BigViewController.swift in Sources */,
-				7C5F11C826530017005543BB /* ViewController.swift in Sources */,
 				7CCA30A3266660EE006972CA /* VideoLooperView.swift in Sources */,
 				7CCA309F26665D1C006972CA /* Video.swift in Sources */,
 				7C5F11C426530017005543BB /* AppDelegate.swift in Sources */,
@@ -188,14 +180,6 @@
 				7C5F11CA26530017005543BB /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		7C5F11CE26530019005543BB /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7C5F11CF26530019005543BB /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
