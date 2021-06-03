@@ -11,11 +11,9 @@
 		7C5F11C626530017005543BB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5F11C526530017005543BB /* SceneDelegate.swift */; };
 		7C5F11CB26530017005543BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C5F11C926530017005543BB /* Main.storyboard */; };
 		7C5F11CD26530019005543BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C5F11CC26530019005543BB /* Assets.xcassets */; };
+		7CAF03C326691B42001A8550 /* VideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAF03C226691B42001A8550 /* VideoPlayer.swift */; };
 		7CCA309B26665CC4006972CA /* vid.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 7CCA309A26665CC4006972CA /* vid.mp4 */; };
-		7CCA309F26665D1C006972CA /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCA309E26665D1C006972CA /* Video.swift */; };
-		7CCA30A3266660EE006972CA /* VideoLooperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCA30A2266660EE006972CA /* VideoLooperView.swift */; };
-		7CCA30A72666611D006972CA /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCA30A62666611D006972CA /* VideoPlayerView.swift */; };
-		7CCA30AB266661BA006972CA /* BigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCA30AA266661BA006972CA /* BigViewController.swift */; };
+		7CCA30AB266661BA006972CA /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCA30AA266661BA006972CA /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,11 +23,9 @@
 		7C5F11CA26530017005543BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7C5F11CC26530019005543BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C5F11D126530019005543BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CAF03C226691B42001A8550 /* VideoPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayer.swift; sourceTree = "<group>"; };
 		7CCA309A26665CC4006972CA /* vid.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = vid.mp4; path = ../../../vid.mp4; sourceTree = "<group>"; };
-		7CCA309E26665D1C006972CA /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
-		7CCA30A2266660EE006972CA /* VideoLooperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoLooperView.swift; sourceTree = "<group>"; };
-		7CCA30A62666611D006972CA /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
-		7CCA30AA266661BA006972CA /* BigViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigViewController.swift; sourceTree = "<group>"; };
+		7CCA30AA266661BA006972CA /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,34 +58,24 @@
 		7C5F11C226530017005543BB /* RussianHelicopters */ = {
 			isa = PBXGroup;
 			children = (
-				7CCA30AA266661BA006972CA /* BigViewController.swift */,
-				7CCA30A62666611D006972CA /* VideoPlayerView.swift */,
-				7CCA30A2266660EE006972CA /* VideoLooperView.swift */,
-				7CCA309D26665CF9006972CA /* Models */,
+				7CAF03C226691B42001A8550 /* VideoPlayer.swift */,
+				7CCA30AA266661BA006972CA /* MainViewController.swift */,
 				7C5F11C326530017005543BB /* AppDelegate.swift */,
 				7C5F11C526530017005543BB /* SceneDelegate.swift */,
 				7C5F11C926530017005543BB /* Main.storyboard */,
 				7C5F11CC26530019005543BB /* Assets.xcassets */,
 				7C5F11D126530019005543BB /* Info.plist */,
-				7CCA309826665C14006972CA /* LocalVideo */,
+				7CCA309826665C14006972CA /* LocalFiles */,
 			);
 			path = RussianHelicopters;
 			sourceTree = "<group>";
 		};
-		7CCA309826665C14006972CA /* LocalVideo */ = {
+		7CCA309826665C14006972CA /* LocalFiles */ = {
 			isa = PBXGroup;
 			children = (
 				7CCA309A26665CC4006972CA /* vid.mp4 */,
 			);
-			path = LocalVideo;
-			sourceTree = "<group>";
-		};
-		7CCA309D26665CF9006972CA /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				7CCA309E26665D1C006972CA /* Video.swift */,
-			);
-			path = Models;
+			path = LocalFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,12 +148,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7CCA30AB266661BA006972CA /* BigViewController.swift in Sources */,
-				7CCA30A3266660EE006972CA /* VideoLooperView.swift in Sources */,
-				7CCA309F26665D1C006972CA /* Video.swift in Sources */,
+				7CAF03C326691B42001A8550 /* VideoPlayer.swift in Sources */,
+				7CCA30AB266661BA006972CA /* MainViewController.swift in Sources */,
 				7C5F11C426530017005543BB /* AppDelegate.swift in Sources */,
 				7C5F11C626530017005543BB /* SceneDelegate.swift in Sources */,
-				7CCA30A72666611D006972CA /* VideoPlayerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,7 +300,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = S.Kornev.RussianHelicopters;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -335,7 +319,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = S.Kornev.RussianHelicopters;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
